@@ -1,59 +1,59 @@
-node,Brain regions (Abbrev),Module number
-1,rBSTS,Bank of the superior temporal sulcus,4
-2, rCAC,Caudal anterior cingulate cortex,2
-3, rCMF,Caudal middle frontal cortex,6
-4, rCUN,Cuneus,1
-5, rENT,Entorhinial cortex,4
-6,  rFP,Frontal pole,6
-7, rFUS,Fusiform gyrus,4
-8,  rIP,Inferior parietal cortex,4
-9,  rIT,Inferior temporal cortex,4
-10,rISTC,Isthmus of the cingulate cortex,2
-11,rLOCC,Lateral occipital cortex,4
-12, rLOF,Lateral orbitofrontal cortex,6
-13,rLING,Lingual gyrus,1
-14, rMOF,Medial orbitofrontal cortex,6
-15,  rMT,Middle temporal cortex,4
-16,rPARC,Paracentral lobule,2
-17,rPARH,Parahippocampal cortex,4
-18,rPOPE,Pars opercularis,6
-19,rPORB,Pars orbitalis,6
-20,rPTRI,Pars triangularis,6
-21,rPCAL,Pericalcarine cortex,1
-22,rPSTC,Postcentral gyrus,4
-23,  rPC,Posterior cingulate cortex,2
-24,rPREC,Precentral gyrus,6
-25,rPCUN,Precuneus,2
-26, rRAC,Rostral anterior cingulate cortex,6
-27, rRMF,Rostral middle frontal cortex,6
-28,  rSF,Superior frontal cortex,6
-29,  rSP,Superior parietal cortex,4
-30,  rST,Superior temporal cortex,4
-31,rSMAR,Supramarginal gyrus,4
-32,  rTP,Temporal pole,4
-33,  rTT,Transverse temporal cortex,4
-34,lBSTS,Bank of the superior temporal sulcus,3
-35, lCAC,Caudal anterior cingulate cortex,2
-36, lCMF,Caudal middle frontal cortex,5
-37, lCUN,Cuneus,1
-38, lENT,Entorhinial cortex,3
-39,  lFP,Frontal pole,5
-40, lFUS,Fusiform gyrus,3
-41,  lIP,Inferior parietal cortex,3
-42,  lIT,Inferior temporal cortex,3
-43,lISTC,Isthmus of the cingulate cortex,2
-44,lLOCC,Lateral occipital cortex,3
-45, lLOF,Lateral orbitofrontal cortex,5
-46,lLING,Lingual gyrus,1
-47, lMOF,Medial orbitofrontal cortex,5
-48,  lMT,Middle temporal cortex,3
-49,lPARC,Paracentral lobule,2
-50,lPARH,Parahippocampal cortex,1
-51,lPOPE,Pars opercularis,5
-52,lPORB,Pars orbitalis,5
-53,lPTRI,Pars triangularis,5
-54,lPCAL,Pericalcarine cortex,1
-55,lPSTC,Postcentral gyrus,,,,3
+node,Brain regions (Abbrev),Full Brain regions,Module number
+1,rBSTS,Bank of the superior temporal sulcus  ,4
+2, rCAC,Caudal anterior cingulate cortex      ,2
+3, rCMF,Caudal middle frontal cortex          ,6
+4, rCUN,Cuneus                                ,1
+5, rENT,Entorhinial cortex                    ,4
+6,  rFP,Frontal pole                          ,6
+7, rFUS,Fusiform gyrus                        ,4
+8,  rIP,Inferior parietal cortex              ,4
+9,  rIT,Inferior temporal cortex              ,4
+10,rISTC,Isthmus of the cingulate cortex      ,2
+11,rLOCC,Lateral occipital cortex             ,4
+12, rLOF,Lateral orbitofrontal cortex         ,6
+13,rLING,Lingual gyrus                        ,1
+14, rMOF,Medial orbitofrontal cortex          ,6
+15,  rMT,Middle temporal cortex               ,4
+16,rPARC,Paracentral lobule                   ,2
+17,rPARH,Parahippocampal cortex               ,4
+18,rPOPE,Pars opercularis                     ,6
+19,rPORB,Pars orbitalis                       ,6
+20,rPTRI,Pars triangularis                    ,6
+21,rPCAL,Pericalcarine cortex                 ,1
+22,rPSTC,Postcentral gyrus                    ,4
+23,  rPC,Posterior cingulate cortex           ,2
+24,rPREC,Precentral gyrus                     ,6
+25,rPCUN,Precuneus                            ,2
+26, rRAC,Rostral anterior cingulate cortex    ,6
+27, rRMF,Rostral middle frontal cortex        ,6
+28,  rSF,Superior frontal cortex              ,6
+29,  rSP,Superior parietal cortex             ,4
+30,  rST,Superior temporal cortex             ,4
+31,rSMAR,Supramarginal gyrus                  ,4
+32,  rTP,Temporal pole                        ,4
+33,  rTT,Transverse temporal cortex           ,4
+34,lBSTS,Bank of the superior temporal sulcus ,3
+35, lCAC,Caudal anterior cingulate cortex     ,2
+36, lCMF,Caudal middle frontal cortex         ,5
+37, lCUN,Cuneus                               ,1
+38, lENT,Entorhinial cortex                   ,3
+39,  lFP,Frontal pole                         ,5
+40, lFUS,Fusiform gyrus                       ,3
+41,  lIP,Inferior parietal cortex             ,3
+42,  lIT,Inferior temporal cortex             ,3
+43,lISTC,Isthmus of the cingulate cortex      ,2
+44,lLOCC,Lateral occipital cortex             ,3
+45, lLOF,Lateral orbitofrontal cortex         ,5
+46,lLING,Lingual gyrus                        ,1
+47, lMOF,Medial orbitofrontal cortex          ,5
+48,  lMT,Middle temporal cortex               ,3
+49,lPARC,Paracentral lobule                   ,2
+50,lPARH,Parahippocampal cortex               ,1
+51,lPOPE,Pars opercularis                     ,5
+52,lPORB,Pars orbitalis                       ,5
+53,lPTRI,Pars triangularis                    ,5
+54,lPCAL,Pericalcarine cortex       ,1
+55,lPSTC,Postcentral gyrus,3
 56,  lPC,Posterior cingulate cortex,2
 57,lPREC,Precentral gyrus,5
 58,lPCUN,Precuneus,1
