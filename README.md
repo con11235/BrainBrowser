@@ -4,6 +4,10 @@
   
 BrainBrowser는 Python의 Plotly Dash를 사용하여 제작한 Web-based visualize software로, 사용자와의 상호작용을 통해 즉각적인 시각화 결과물을 확인할 수 있습니다.   
 
+<img src = "https://user-images.githubusercontent.com/50431248/160311474-d2f2ef13-fc75-4545-9a89-e0b5207c1cf2.png" width="90%"></img>
+
+웹 애플리케이션을 설계한 구조는 위와 같습니다.
+
 ## 시각화 결과물  
   
   
