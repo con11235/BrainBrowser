@@ -270,6 +270,7 @@ python index.py
 * numpy==1.18.3
 * pandas==1.0.3
 * plotly==4.9.0
+* pygam==0.8.0
 
 
 ## 참고자료
