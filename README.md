@@ -198,7 +198,9 @@ Table Section에서는 클릭한 위치 좌표와 해당 영역의 명칭을 알
 > #### Graph Section  
 
 
-<img src="https://user-images.githubusercontent.com/50431248/101647471-1d7cb580-3a7c-11eb-8cd0-834d72482e2b.png" width="90%"></img>    
+<img src="https://user-images.githubusercontent.com/50431248/174464582-736c7b89-2164-4183-8c16-0b4a53d94067.png" width="45%"></img>
+<img src="https://user-images.githubusercontent.com/50431248/174464584-e888d48b-bfd8-474d-b48d-a187e00c2eff.png" width="45%"></img>
+
 
 
 Graph Section에서는 Table에서 보여준 data들을 plot하여 보여줍니다. 여기서는 나이에 따른 정보를 확인할 수 있으며, 나이에 따른 회귀곡선도 함께 표현됩니다.  
