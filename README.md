@@ -8,7 +8,7 @@ BrainBrowser는 Python의 Plotly Dash를 사용하여 제작한 Web-based visual
 
 웹 애플리케이션을 설계한 구조는 위와 같습니다.
 
-## 시각화 결과물  
+## [시각화 결과물](https://brainbrowser.herokuapp.com/)
   
   
 > #### Intro Section  
