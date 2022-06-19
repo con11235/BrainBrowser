@@ -1,7 +1,7 @@
 import pandas as pd
-import numpy as np
-import io
-from utils import *
+#import numpy as np
+#import io
+from utils import create_mesh_data
 
 FS_DATA = pd.read_csv('data/free_surfer_data.csv')
 FS_DATA["Sex"] = FS_DATA["Sex"].apply(lambda x: ["","M","F"][x])

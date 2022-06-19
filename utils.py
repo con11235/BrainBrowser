@@ -56,7 +56,7 @@ Transparent_colorscale = [
 def read_mniobj(file):
     """
     Parses an obj file.
-    
+
     :params file: file name in data folder
     :returns: a tuple
     """
@@ -185,7 +185,7 @@ def create_3D_connectivity(atlas= None,data=None):
                                         marker=dict(
                                         size=0,
                                     ),
-                                    opacity=0.8,                                
+                                    opacity=0.8,
                                     line=dict(
                                         color=lineColor,
                                         width=data[i][j]*100
@@ -282,9 +282,10 @@ def get_circos(atlas=None,data=None):
             if i == atlas:
                 C_DATA['cytobands'][i]['color'] = C_DATA['GRCh37'][p-1]['color']
             del c[p-1][0]
-        
+
     return dash_bio.Circos(
-    id='main-circos',selectEvent={'0': 'hover', '1': 'click'},
+            id='main-circos',
+            selectEvent={'0': 'hover', '1': 'click'},
             layout=C_DATA['GRCh37'],
             config={
                 'innerRadius': 240,
@@ -306,9 +307,10 @@ def get_circos(atlas=None,data=None):
                         'innerRadius': 240,
                         'outerRadius': 270,
                         #'opacity': 0.3,
-                        'tooltipContent': {'name': 'name'},
                         'color': {'name': 'color'},
+                        'tooltipContent': {'name': 'Name'},
                     },
+
                 },
                 {
                     'type': 'HIGHLIGHT',
@@ -317,17 +319,15 @@ def get_circos(atlas=None,data=None):
                         'innerRadius': 270,
                         'outerRadius': 300,
                         #'opacity': 0.3,
-                        'tooltipContent': {'name': 'name'},
                         'color': {'name': 'color'},
+                        'tooltipContent': {'name': "Name"},
                     },
+
                 },
                 {
                     'type': 'CHORDS',
                     'data': C_DATA['chords'],
                     'config': {
-                        'logScale': False,
-                        #'opacity': {'value' : 'opacity'},
-                        'color': {'name': 'color'},
                         'tooltipContent': {
                             'source': 'source',
                             'sourceID': 'id',
@@ -335,7 +335,11 @@ def get_circos(atlas=None,data=None):
                             'targetID': 'id',
                             'targetEnd': 'end',
                         },
+                        'logScale': False,
+                        #'opacity': {'value' : 'opacity'},
+                        'color': {'name': 'color'},
                     },
+
                 },
             ],
             size=750,
